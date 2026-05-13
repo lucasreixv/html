@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, rgb(63, 32, 13), rgb(241, 164, 117));
+
+}
+
+h1 {
+  font-family: "chocolate bom, é choco good";
+  font-size: 35px;
+  text-align: center;
+  color: rgb(209, 161, 99);
+  text-shadow: 5px 5px 5px rgb(78, 45, 23);
+
+}
+
+@font-face {
+  font-family:"chocolate bom, é choco good";
+  src: url("Aston\ Script.ttf");
+}
+
+ul {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style: url("icone_chocolate.jpg.png");
+}
+p {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+  text-align: center;
+  color: rgb(255, 243, 224);
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(121, 70, 35);
+  width: 400px;
+  margin-right: 200px;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgb(210, 180, 140);
+  flex-shrink: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: none;
+  flex: 1;
+
+}
+.info ul {
+  margin:0;
+  padding-left: 18px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.info li {
+  white-space: normal;
+}
+
+.preco {
+  
+  font-weight:bold;
+  color: rgb(139, 0, 0);
+}
+
+.extras {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+
+iframe {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(255, 243, 224);
+  padding: 20px;
+}

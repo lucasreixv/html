@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    
+        <form>
+            <div id="container">
+                <h1>Trabalhe Conosco</h1>
+                <br>
+                <fieldset id="pessoais">
+                    <legend id="dados-pessoais"><h2>Dados pessoais</h2></legend>
+                    <label for="nome">Nome completo: </label>
+                    <input type="text" id="nome" maxlength="40" placeholder="Preencha o nome completo" required>
+
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" id="endereco" maxlength="60" placeholder="Endereço" required>
+
+                    <label for="cidade">Cidade: </label>
+                    <input type="text" id="cidade" maxlength="60" placeholder="Cidade" value="São Paulo" required>
+
+                    
+    <select name="txtuf" >
+        <option >AC</option>
+        <option >AP</option>
+        <option >AM</option>
+        <option >PA</option>
+        <option >RO</option>
+        <option >RR</option>
+        <option >TO</option>
+        <option >AL</option>
+        <option >BA</option>
+        <option >CE</option>
+        <option >MA</option>
+        <option >PB</option>
+        <option >PE</option>
+        <option >PI</option>
+        <option >RN</option>
+        <option >SE</option>
+        <option >DF</option>
+        <option >GO</option>
+        <option >MS</option>
+        <option >MT</option>
+        <option >ES</option>
+        <option >MG</option>
+        <option >RJ</option>
+        <option >SP</option>
+        <option >PR</option>
+        <option >RS</option>
+        <option >SC</option>
+ </select><br/>
+                    <label for="cep">CEP: </label>
+                    <input type="text" id="cep" maxlength="10" placeholder="Preencha o CEP" required>
+
+                    <label for="whatsapp">Whatsapp: </label>
+                    <input type="text" id="whatsapp" maxlength="60" placeholder="Preencha o whats com DDD" required>
+
+                    <div>
+                        <label for="sexo">Sexo: </label>
+                        <input type="radio" name="sexo" id="sexo" value="F" required>
+                        <label for="sexo">Feminino</label>
+                        <input type="radio" name="sexo" id="sexo2" value="M" required>
+                        <label for="sexo2">Masculino</label>
+                    </div>
+                    
+                    <label for="login">Crie seu login: </label>
+                    <input type="text" maxlength="60" id="login" placeholder="Preencha seu login" required>
+
+                    <label for="senha">Crie sua senha: </label>
+                    <input type="password" id="senha" maxlength="60" placeholder="Preencha sua senha" required>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend id="graduacao-escolar"><h2>Graduação Escolar</h2></legend>
+                
+                    <div>
+                        <input type="radio" id="fi" name="graduacao" value="fi" required>
+                        <label for="fi">Fundamental Incompleto</label><br>
+                        <input type="radio" id="fc" name="graduacao" value="fc" required>
+                        <label for="fc">Fundamental Completo</label><br>
+                        <input type="radio" id="mi" name="graduacao" value="mi" required>
+                        <label for="mi">Médio Incompleto</label><br>
+                        <input type="radio" id="mc" name="graduacao" value="mc" required>
+                        <label for="mc">Médio Completo</label><br>
+                        <input type="radio" id="si" name="graduacao" value="si" required>
+                        <label for="si">Superior Incompleto</label><br>
+                        <input type="radio" id="sc" name="graduacao" value="sc" required>
+                        <label for="sc">Superior Completo</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend id="especializacao"><h2>Especialização</h2></legend>
+
+                    <div>
+                        <input type="checkbox" id="tecnico" value="tecnico">
+                        <label for="tecnico">Ensino Técnico</label><br>
+                        <input type="checkbox" id="ingles" value="ingles">
+                        <label for="ingles">Inglês</label><br>
+                        <input type="checkbox" id="certificacao-tecnica" value="certificacao-tecnica">
+                        <label for="certificacao-tecnica">Certificação Técnica</label>
+                        
+                    </div>
+                </fieldset>
+                <br>
+                <div id="fim">
+                    <input type="submit" placeholder="Enviar" id="enviar"> <button type="reset">Limpar</button>
+                </div>
+            </div>
+        </form>
+    
+</body>
+</html>
