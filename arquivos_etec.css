@@ -1,40 +1,82 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to right, rgb(63, 32, 13), rgb(241, 164, 117));
-
-}
-
-h1 {
-  font-family: "chocolate bom, é choco good";
-  font-size: 35px;
-  text-align: center;
-  color: rgb(209, 161, 99);
-  text-shadow: 5px 5px 5px rgb(78, 45, 23);
-
-}
 
 @font-face {
   font-family:"chocolate bom, é choco good";
   src: url("Aston\ Script.ttf");
 }
 
-ul {
+*{
+  scroll-behavior: smooth;
+
+}
+:target {
+
+  scroll-margin-top: 170px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, rgb(63, 32, 13), rgb(190, 132, 95), rgb(63, 32, 13));
+
+}
+
+header {
+   width: 100%;
+   margin-top:0%;
+   margin-left:0%;
+   margin-right:0%;
+   top:0%;
+   left:0%;
+   right:0%;
+   text-align: center;
+   padding: 20px;
+   position:fixed;
+   z-index:1;
+   backdrop-filter: blur(20px);
+}
+
+header h1 {
+  font-family: "chocolate bom, é choco good";
+  margin-top:0%;
+  margin-bottom:0%;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(255, 243, 224);
+  text-shadow: 5px 5px 5px rgb(78, 45, 23);
+
+}
+header nav a::after {
+  content:".....";
+  opacity: 0%;
+  
+}
+header nav a {
+  text-decoration:none;
+  color: rgb(243, 193, 113);
+  font-size: 120%;
+}
+
+header nav a:hover{
+  text-decoration:underline;
+  text-shadow: 5px 5px 5px rgb(78, 45, 23);
+
+}
+
+#secao1, #secao11{
+  margin-top:170px;
+
+}
+
+.info ul {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   list-style: url("icone_chocolate.jpg.png");
 }
-p {
+
+.info p {
 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-header {
-  text-align: center;
-  color: rgb(255, 243, 224);
-  padding: 20px;
-}
 
 main {
   display: flex;
