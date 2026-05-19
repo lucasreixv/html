@@ -1,0 +1,29 @@
+@font-face {font-family:"Trabalhe conosco";
+  src: url("Aston\ Script.ttf");
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(243, 186, 203);
+}
+
+h1 {
+  font-family: "Trabalhe conosco";
+  font-size:47px;
+  color:rgb(78, 8, 55);
+  margin-top:0%;
+  margin-bottom:0%;
+  padding:0%;
+}
+
+legend {
+    color:rgb(78, 8, 55);
+    font-size:18px;
+}
+
+label {
+    color:rgb(90, 12, 64);
+    font-family: 'Cambria', 'Cochin', 'Times New Roman';
+    font-size:18px;
+}
+
