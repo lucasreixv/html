@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    
     <title>Formulário</title>
+
 </head>
 <body>
     
-        <form>
+        <form action="mailto:manueladrumondestevam@gmail.com" method="post" enctype="text/plain">
             <div id="container">
                 <h1>Trabalhe Conosco</h1>
                 
@@ -60,18 +64,21 @@
                     <input type="text" id="whatsapp" maxlength="60" placeholder="Preencha o whats com DDD" required>
 
                     <div>
+                        <br>
                         <label for="sexo">Gênero: </label>
-                        <input type="radio" name="sexo" id="sexo" value="F" required>
-                        <label for="sexo">Feminino</label>
-                        <input type="radio" name="sexo" id="sexo2" value="M" required>
-                        <label for="sexo2">Masculino</label>
-                        <input type="radio" name="sexo" id="sexo2" value="I" required>
-                        <label for="sexo2">Intersexo</label>
-                        <input type="radio" name="sexo" id="sexo2" value="O" required>
-                        <label for="sexo2">Outro</label>
+                        <input type="radio" name="sexo" id="feminino" value="F" required>
+                        <label for="feminino">Feminino ♀</label>
+                        <input type="radio" name="sexo" id="masculino" value="M" required>
+                        <label for="masculino">Masculino ♂</label>
+                        <input type="radio" name="sexo" id="intersexo" value="I" required>
+                        <label for="intersexo">Intersexo ⚨</label>
+                        <input type="radio" name="sexo" id="outro" value="O" required>
+                        <label for="outro">Outro</label>
+                    
 
                     </div>
-                    
+                
+                    <br>
                     <label for="login">Crie seu login: </label>
                     <input type="text" maxlength="60" id="login" placeholder="Preencha seu login" required>
 
