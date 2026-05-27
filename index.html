@@ -19,16 +19,16 @@
                 <fieldset id="pessoais">
                     <legend id="dados-pessoais"><h2>Dados pessoais</h2></legend>
                     <label for="nome">Nome completo: </label>
-                    <input type="text" id="nome" maxlength="40" placeholder="Preencha o nome completo" required>
+                    <input type="text" name="Nome_Completo" id="nome" maxlength="40" placeholder="Preencha o nome completo" required>
 
                     <label for="endereco">Endereço: </label>
-                    <input type="text" id="endereco" maxlength="60" placeholder="Endereço" required>
+                    <input type="text" name="Endereco" id="endereco" maxlength="60" placeholder="Endereço" required>
 
                     <label for="cidade">Cidade: </label>
-                    <input type="text" id="cidade" maxlength="60" placeholder="Cidade" value="São Paulo" required>
+                    <input type="text" name="Cidade" id="cidade" maxlength="60" placeholder="Cidade" value="São Paulo" required>
 
                     
-    <select name="txtuf" >
+    <select name="UF" >
         <option >AC</option>
         <option >AP</option>
         <option >AM</option>
@@ -58,21 +58,21 @@
         <option >SC</option>
  </select><br/>
                     <label for="cep">CEP: </label>
-                    <input type="text" id="cep" maxlength="10" placeholder="Preencha o CEP" required>
+                    <input type="text" name="CEP" id="cep" maxlength="10" placeholder="Preencha o CEP" required>
 
                     <label for="whatsapp">Whatsapp: </label>
-                    <input type="text" id="whatsapp" maxlength="60" placeholder="Preencha o whats com DDD" required>
+                    <input type="text" name="Whatsapp" id="whatsapp" maxlength="60" placeholder="Preencha o whats com DDD" required>
 
                     <div>
                         <br>
                         <label for="sexo">Gênero: </label>
-                        <input type="radio" name="sexo" id="feminino" value="F" required>
+                        <input type="radio" name="Sexo" id="feminino" value="F" required>
                         <label for="feminino">Feminino ♀</label>
-                        <input type="radio" name="sexo" id="masculino" value="M" required>
+                        <input type="radio" name="Sexo" id="masculino" value="M" required>
                         <label for="masculino">Masculino ♂</label>
-                        <input type="radio" name="sexo" id="intersexo" value="I" required>
+                        <input type="radio" name="Sexo" id="intersexo" value="I" required>
                         <label for="intersexo">Intersexo ⚨</label>
-                        <input type="radio" name="sexo" id="outro" value="O" required>
+                        <input type="radio" name="Sexo" id="outro" value="O" required>
                         <label for="outro">Outro</label>
                     
 
@@ -80,10 +80,10 @@
                 
                     <br>
                     <label for="login">Crie seu login: </label>
-                    <input type="text" maxlength="60" id="login" placeholder="Preencha seu login" required>
+                    <input type="text" maxlength="60" name="Login" id="login" placeholder="Preencha seu login" required>
 
                     <label for="senha">Crie sua senha: </label>
-                    <input type="password" id="senha" maxlength="60" placeholder="Preencha sua senha" required>
+                    <input type="password" name="Senha" id="senha" maxlength="60" placeholder="Preencha sua senha" required>
                 </fieldset>
                 <br>
 
@@ -110,21 +110,21 @@
                     <legend id="especializacao"><h2>Especialização</h2></legend>
 
                     <div>
-                        <input type="checkbox" id="tecnico" value="tecnico">
+                        <input type="checkbox" name="Especializacao_Ensino_Tecnico" id="tecnico" value="tecnico">
                         <label for="tecnico">Ensino Técnico</label><br>
-                        <input type="checkbox" id="ingles" value="ingles">
+                        <input type="checkbox" name="Especializacao_Ingles" id="ingles" value="ingles">
                         <label for="ingles">Inglês</label><br>
-                        <input type="checkbox" id="certificacao-tecnica" value="certificacao-tecnica">
+                        <input type="checkbox" name="Especializacao_Cert_Tecnica" id="certificacao-tecnica" value="certificacao-tecnica">
                         <label for="certificacao-tecnica">Certificação Técnica</label>
                         <br>
-                        <input type="checkbox" id="certificacao-tecnica" value="certificacao-bacharelado">
+                        <input type="checkbox" name="Especializacao_Cert_Bacharel" id="certificacao-tecnica" value="certificacao-bacharelado">
                         <label for="certificacao-bacharelado">Certificação Bacharelado</label>
                         
                     </div>
                 </fieldset>
                 <br>
                 <div id="fim">
-                    <input type="submit" placeholder="Enviar" id="enviar"> <button type="reset">Limpar</button>
+                    <input type="submit" value="Enviar" id="enviar"> <input type="reset" value="Limpar">
                 </div>
             </div>
         </form>
